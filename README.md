@@ -1,7 +1,11 @@
-# Grace React Template
+# Grace ToDo App
 
-Vsebuje:
+### Kratek opis
+Aplikacija bo pomagala uporabniku z beleženjem opravil. Uporabnik bo lahko dodajal, urejal in brisal opravila. Opravila bo lahko tudi označil kot opravljena.
 
-- React + Vite
-- Tailwind css
-- Shadcn komponente
+Končno rešitev si lahko pogledate [tukaj](https://grace-todo.vercel.app/).
+
+
+## Navodila
+
+### 1. 
