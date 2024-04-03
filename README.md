@@ -31,13 +31,13 @@ Aplikacijo bodo sestavljale naslednje komponente:
 2. Naredite `form` in vanj dodajte `Input` polje, ki bo uporabniku omogočilo vnos naslova todo-ja. Input "povežite" s state-om `title`. (**Pozor: Input in input ni ista stvar!**)
 3. Spomnite se na prejšnje srečanje, kjer lahko pogledate kako smo obravnavali podatke iz vnosnih polj.
 4. Uporabite eventa kot sta `onChange` in `onClick` - enega boste uporabili pri vnosnem polju (input), drugega pa pri gumbu (button).
-5. Funkcija, ki jo pokličete ob dogodku onClick naj v seznam todos doda nov todo
+5. Funkcija, ki jo pokličete ob dogodku onClick naj v seznam `todos` doda nov `todo`.
 
 ### III. Prikaz todojev
 
-1. V `ShowTodos.jsx` spišite zanko, ki bo za vsak element v seznamu `todos` uporabila komponento `Todo.jsx` in na nek - poljuben - način prikazala element iz seznama. Uporabite komponento iz shadcn, ki bo najbolj ustrezno prikazala element todo-ja.
+1. V `ShowTodos.jsx` spišite zanko, ki bo za vsak element v seznamu `todos` uporabila komponento `Todo.jsx` in na nek - poljuben - način prikazala elemente iz seznama. Uporabite komponento iz shadcn, ki bo najbolj ustrezno prikazala element todo-ja.
 
 ### IV. Brisanje in urejanje todojev
 
-1. Ko narediti že vse do sedaj opisane naloge se lahko lotite še malo bolj zahtevnih. Implementirajte brisanje posameznih todo-jev.
+1. Ko narediti že vse do sedaj opisane naloge, se lahko lotite še malo bolj zahtevnih. Implementirajte brisanje posameznih todo-jev. Dodajte gumb s križcem ali besedilom 'Briši' zraven posameznega todo-ja. Ob kliku nanj naj se todo odstrani.
 2. Še malo zahtevnejše: dodajte še urejanje posameznih todo-jev. Razmislite kako boste najprej vizualno uredili urejanje tega todo-ja, nato pa še kako boste uredili pravi element v seznamu.
